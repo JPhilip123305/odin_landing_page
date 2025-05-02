@@ -1,5 +1,12 @@
+
+
 *{
     margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
@@ -13,18 +20,17 @@
 .header_logo{
     color: #f9faf8;
     font-size: 24px;
-    padding: 12px 60px;
+    padding: 20px 160px;
     text-align: center;
+    font-weight: bold;
 }
 
-/*.header_links{
-    display: flex;
-}
-*/
+
+
 ul{
     list-style-type: none;
     display: flex;
-    padding: 12px 60px;
+    padding: 24px 60px;
     gap: 20px;
     text-align: center;
   }
@@ -32,4 +38,15 @@ ul{
 a{
     color: inherit;
     text-decoration: none;
+  }
+
+  img {
+    width: 500px;
+    height: 300px;
+  }
+
+  .section_two{
+    display:flex;
+    background-color: #1F2937;
+    color: #f9faf8;
   }
